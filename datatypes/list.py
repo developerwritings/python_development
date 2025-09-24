@@ -2,19 +2,18 @@
 # ordererd List of data types with sequential values 
 # mutable, values can alter 
 
-# example 1 
-# Define list 
+# Example 1 
+# Define List 
 
 import gc 
 
 sampleList = [1,2,4]
 print(sampleList)
-# print list of values of the sample list 
+# Print list of values of the sample list 
 
 sampleList.append(100)
 print(sampleList)
-# append(value) added the values at the last using append 
-
+# Append(value) added the values at the last using append 
 
 sampleList.insert(2, 101)
 print("add the values using index and values moves the values", sampleList)
